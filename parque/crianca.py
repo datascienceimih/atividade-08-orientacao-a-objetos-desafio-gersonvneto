@@ -38,7 +38,7 @@ class Crianca:
         if self.esta_correndo:
             if outra_crianca.paralisado and not self.e_pegador:
                 outra_crianca.paralisado = False
-                print('Te salvei! Começa a correr!!')
+                print(f'Te salvei! Começa a correr {outra_crianca.nome}!!')
 
             elif self.e_pegador:
                 print('Não vou salvar ninguém! Tenho que pegá-los!')
