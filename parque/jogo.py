@@ -39,5 +39,6 @@ crianca1.salvar(crianca2)
 crianca1.correr()
 crianca1.salvar(crianca2)
 crianca1.salvar(crianca2)
+crianca3.salvar(crianca1)
 
 
