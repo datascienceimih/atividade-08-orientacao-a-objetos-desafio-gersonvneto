@@ -29,9 +29,15 @@ print(crianca3.e_pegador)
 
 ## vamos brincar
 
-crianca1.correr()
 crianca2.correr()
+crianca3.correr()
 
-
+crianca3.pegar(crianca2)
+crianca2.correr()
+crianca3.pegar(crianca2)
+crianca1.salvar(crianca2)
+crianca1.correr()
+crianca1.salvar(crianca2)
+crianca1.salvar(crianca2)
 
 
