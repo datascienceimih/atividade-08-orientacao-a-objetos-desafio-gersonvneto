@@ -60,7 +60,7 @@ class Pegador(Crianca):
 
             else:
                 outra_crianca.paralisado = True
-                print('Te pegueii!! Agora você está paralisado!')
+                print(f'Te pegueii!! Agora você está paralisado {outra_crianca.nome}!')
 
         else:
             print('Não estou correndo, não posso pegar ninguém parado!')
