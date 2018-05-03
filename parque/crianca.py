@@ -15,7 +15,6 @@ Se eu tentar salvar uma criança que não está paralisada, ela vai me contar qu
 Se o pegador tentar pegar uma criança que já está paralisada ela vai contar que já está paralisada.
 
 
-
 """
 
 class Crianca:
